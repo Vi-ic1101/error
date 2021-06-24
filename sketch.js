@@ -99,7 +99,7 @@ async function getTime(){
     if(hours>=600 && hours<=1900){
         bg="sprites/bg.png"
     }else {
-        bg="sprite/bg2.jpg"
+        bg="sprites/bg2.jpg"
     }
     backgroundImg=loadImage(bg)
     console.log(backgroundImg)
